@@ -7,7 +7,7 @@ const admin = require("firebase-admin");
 const app = express();
 const PORT = 3001;
 
-const serviceAccount = require("./survey-js-75a12-firebase-adminsdk-fbsvc-0b7867e440.json");
+const serviceAccount = require("./survey-js-75a12-firebase-adminsdk-fbsvc-df87577998.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
